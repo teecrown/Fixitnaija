@@ -1,11 +1,12 @@
 import React from 'react'
-import './index.css'
+// import './index.css'
+import Navbar from './Components/navbar'
 
 
 const App = () => {
   return (
-    <div className>
-      Hello
+    <div>
+       <Navbar />
     </div>
   )
 }
