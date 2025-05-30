@@ -1,16 +1,16 @@
 import React from 'react'
-// import Footer from './Components/footer'
-// import FAQs from './Components/FAQs'
-// import Join from './Components/Join'
+// import './index.css'
+import { Routes, Route} from 'react-router'
+import Homepage from './Pages/Homepage'
 import './App.css'
-import AboutUs from './Pages/AboutUs'
-// import Location from './assets/location.png'
-import CreateAccount from '../src/Pages/CreateAccount'
+
 
 const App = () => {
   return (
     <div>
-     
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+      </Routes>
     </div>
   )
 }

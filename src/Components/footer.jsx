@@ -1,7 +1,7 @@
 import React from "react";
 
 import { BsFacebook } from "react-icons/bs";
-import Logo from "../assets/Fixit-logo.png";
+import Logo from "../assets/Fixitlogo.png";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
 import { RiTwitterXFill } from "react-icons/ri";

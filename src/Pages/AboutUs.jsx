@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "../Components/Footer";
+import Footer from "../Components/footer";
 import Location from "../assets/location.png";
 import Todo from "../assets/todo.png";
 import Ppl from "../assets/ppl.png";
