@@ -1,9 +1,10 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
 import Herosection from '../Components/Herosection'
+import Footer from '../Components/footer'
 import Report from '../Components/Report'
-import Signup from '../Pages/signup'
-// import FadingOverlay from '../Components/FadingOverlay' // Uncomment if you want to use the fading overlay component
+import Faq from '../Components/FAQs'
+import Join from '../Components/Join'
 
 const Homepage = () => {
   return (
@@ -11,7 +12,9 @@ const Homepage = () => {
         <Navbar />
         <Herosection />
         <Report />
-        <Signup/>
+        <Join />
+        <Faq />
+        <Footer />
     </div>
   )
 }
