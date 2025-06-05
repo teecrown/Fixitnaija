@@ -16,7 +16,7 @@ const Herosection = () => {
                         <br/> track public infrastructure problems in your community.Join us in making a 
                         <br/> difference by highlighting issues in your community.
                     </p>
-                     <button  className='border font-poppins text-base font-medium border-[#15803D] bg-[#15803D] text-[#fff] rounded-lg width-[183px] height[48px] pt-[12px] pb-[12px] pl-[42px] pr-[42px] ml-[100px] mr-[323px] mt-[32px]  '>Report Issue</button>
+                    <button  className='border font-poppins text-base font-medium border-[#15803D] bg-[#15803D] text-[#fff] rounded-lg width-[183px] height[48px] pt-[12px] pb-[12px] pl-[42px] pr-[42px] ml-[100px] mr-[323px] mt-[32px]  '>Report Issue</button>
                 </div>
             </div>
             <div className='flex justify-between items-center ml-[100px] mr-[100px] mt-[40px]'>

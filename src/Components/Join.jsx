@@ -10,40 +10,59 @@ import Todo from "../assets/todo.png";
 const Join = () => {
   return (
     <div>
-        <div className="flex flex-col my-[20px] justify-center items-center">
-            <p className="font-[700] font-poppins text-[40px] leading-[48px] text-center mb-[32px] text-[#333333] "> How It Works </p>
+      <div className="flex flex-col my-[20px] justify-center items-center">
+        <p className="font-[700] font-poppins text-[40px] leading-[48px] text-center mb-[32px] text-[#333333] ">
+          {" "}
+          How It Works{" "}
+        </p>
 
-
-            <p className="font-[400] w-[346px]  font-poppins text-[14px] leading-[24px] text-center mb-[50px] text-[#333333] ">Simple steps to report and resolve infrastructure <br/> issues</p>
-        </div>
+        <p className="font-[400] w-[346px]  font-poppins text-[14px] leading-[24px] text-center mb-[50px] text-[#333333] ">
+          Simple steps to report and resolve infrastructure <br /> issues
+        </p>
+      </div>
       <div className="flex flex-col sm:flex-row w-full px-[16px] rounded gap-[32px]  ">
-        <div className="  mx-auto border border-white rounded-[16px] pb-[16px] shadow-[0px 4px 24px 0px #00000014] h-[237px] bg-[#fbfbfb] p-[24px] flex flex-col items-center justify-center  w-[392px]">
-          <img  className='pt-[24px]' src={Todo} alt="" />
+        <div
+          className="  mx-auto border border-white rounded-[16px]  h-[213px] w-[392px] pb-[16px]  bg-[#fbfbfb] p-[24px] flex flex-col items-center justify-center "
+          style={{ boxShadow: "0 0 8px rgba(0, 0, 0, 0.5)" }}
+        >
+          <img className="pt-[24px]" src={Todo} alt="" />
           <div className="text-center font-poppins">
-            <p className="font-Poppins font-[600] text-[16px] leading-[24px] text-center mx-auto py-[20px] ">Report an Issue</p>
+            <p className="font-Poppins font-[600] text-[16px] leading-[24px] text-center mx-auto py-[20px] ">
+              Report an Issue
+            </p>
             <p className=" font-[400] text-[14px] leading-[24px] text-center mx-auto">
-
-
-
               Submit details about infrastructure problems in your area with
               photos and location.
             </p>
           </div>
         </div>
-        <div className=" bg-white border p-[24px]  flex flex-col items-center justify-center  h-[213px] w-[392px]">
+
+      
+
+        <div
+          className=" p-[24px]  flex flex-col items-center justify-center rounded-[16px]  h-[213px] w-[392px] pb-[16px]  bg-[#fbfbfb]]"
+          style={{ boxShadow: "0 0 8px rgba(0, 0, 0, 0.5)" }}
+        >
           <img src={Location} alt="" />
           <div className="text-center">
-            <p>Report an Issue</p>
+            <p className="font-Poppins font-[600] text-[16px] leading-[24px] text-center mx-auto py-[20px">
+              Report an Issue
+            </p>
             <p>
               Submit details about infrastructure problems in your area with
               photos and location.
             </p>
           </div>
         </div>
-        <div className=" bg-white p-[24px] border  flex flex-col items-center justify-center  h-[213px] w-[392px]">
+        <div
+          className="p-[24px]  flex flex-col items-center justify-center rounded-[16px]  h-[213px] w-[392px] pb-[16px]  bg-[#fbfbfb]]"
+          style={{ boxShadow: "0 0 8px rgba(0, 0, 0, 0.5)" }}
+        >
           <img src={Correct} alt="" />
-          <div className="text-center">
-            <p>Report an Issue</p>
+          <div className="font-Poppins font-[600] text-[16px] leading-[24px] text-center mx-auto py-[20px">
+            <p className="font-Poppins font-[600] text-[16px] leading-[24px] text-center mx-auto py-[20px">
+              Report an Issue
+            </p>
             <p>
               Submit details about infrastructure problems in your area with
               photos and location.
@@ -52,7 +71,7 @@ const Join = () => {
         </div>
       </div>
       <div>
-        <p className="justify-center flex font-poppins text-[24px] mb-[40px]">
+        <p className="justify-center flex font-poppins text-[24px] my-[40px]">
           Our Trusted Partners
         </p>
         <div className=" flex flex-wrap sm:justify-between w-full sm:flex  mx-auto ">
@@ -75,6 +94,7 @@ const Join = () => {
               tracking their <br />
               resolution.
             </p>
+
             <div className="flex gap-[16px] justify-center mb[20px] px-[16px]">
               <button className="text-white bg-[#15803D] hover:bg-[#A1EEAF] mt-[24px] rounded-[8px] h-[48px] w-[200px] p-[5px] mb-[100px] cursor-pointer">
                 {" "}

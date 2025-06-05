@@ -9,7 +9,7 @@ import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 
 export default function FAQs() {
   return (
-    <div className="font-poppins bg-white border-b-blue-900 max-w-[1240px] mt-[24px] mx-auto">
+    <div id="FAQ"  className=" font-poppins bg-white border-b-blue-900 max-w-[1240px] mt-[24px] mx-auto">
       <div className="p-[16px] sm:p-[24px] lg:p-[100px]">
         <div>
           <h1 className="text-[40px] lg:text-[48px] leading-[60px] sm:leading-[72px] font-poppins font-[700] text-[#333] text-center">
@@ -354,13 +354,14 @@ export default function FAQs() {
               </div>
             </AccordionDetails>
           </Accordion>
-          <div className="grid place-content-center">
-            <p className="text-[16px]"> Do You Still Have Questions ?</p>
+          <div className="flex flex-col justify-center items-center align-middle">
+            <p className="text-[16px] font-Poppins sm:text-[24px] font-[500] leading-[48px] "> Do You Still Have Questions ?</p>
             <button className="text-white bg-[#15803D] mt-[24px] rounded-[8px] h-[48px] w-[200px] p-[5px] mb-[100px]">
               {" "}
               Reach Out to Us{" "}
             </button>
           </div>
+
         </div>
 
         <div className="mt-[24px] mb-[60px] ">
@@ -379,14 +380,14 @@ export default function FAQs() {
                 <input
                   type="email"
                   placeholder="Enter your email"
-                  className="  mt-[1px] pl-[24px] w-[174px] sm:w-[326px] h-[48px] text-[16px]  font-poppins border border-[#15803D] bg-[#ffff] rounded-l-[40px] "
+                  className="   pl-[24px] w-[174px] sm:w-[326px]  md:w-[702px] h-[48px] text-[16px]  font-poppins border border-[#15803D] bg-[#ffff] rounded-l-[40px] "
                 />
                 <button className="w-[110px] h-[48px] text-white bg-[#15803D] rounded-r-[40px] p-[5px]">
                   {" "}
                   Subscribe{" "}
                 </button>
 
-                <p className=" text-[16px] font-poppins ">
+                <p className=" text-[16px] font-poppins py-[16px] ">
                   By subscribing, you agree to our Privacy Policy and consent to
                   receive updates.
                 </p>
