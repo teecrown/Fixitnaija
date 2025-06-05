@@ -10,9 +10,10 @@ import Create from '../Pages/CreateAccount'
 const Homepage = () => {
   return (
     <div>
-        {/* <Herosection /> */}
-        {/* <Report /> */}
-        {/* <Join /> */}
+      <Navbar />
+        <Herosection />
+        <Report />
+        <Join />
         <Faq />
         <Footer />
     </div>
