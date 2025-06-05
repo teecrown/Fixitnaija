@@ -12,7 +12,7 @@ const Navbar = () => {
     <div>
       <navbar className='flex justify-between items-center mr-[100px] ml-[100px] mt-[16px] mb-[16px]'>
         <div classname='nav-logo'>
-          <Link to="/"><img src={Logo} alt="logo" /> </Link>
+          <Link to="/Homepage"><img src={Logo} alt="logo" /> </Link>
         </div>
         <div className='nav-links'>
           <p></p>
