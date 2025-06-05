@@ -5,11 +5,12 @@ import Footer from '../Components/footer'
 import Report from '../Components/Report'
 import Faq from '../Components/FAQs'
 import Join from '../Components/Join'
+import Create from '../Pages/CreateAccount'
 
 const Homepage = () => {
   return (
     <div>
-        <Navbar />
+      <Navbar />
         <Herosection />
         <Report />
         <Join />
