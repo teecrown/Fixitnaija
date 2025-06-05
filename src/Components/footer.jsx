@@ -5,34 +5,41 @@ import Logo from "../assets/Fixitlogo.png";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
 import { RiTwitterXFill } from "react-icons/ri";
+import { Link } from "react-router";
 
 function footer() {
   return (
-    <div className="  w-full px-[16px] py-[40px]  text-white  bg-[#0F1419] font-work sm:p-[100px] sm:w-full ">
+    <div className="  w-full px-[11px] sm:px-[16px] py-[40px]  text-white  bg-[#0F1419] font-work sm:p-[100px] sm:w-full ">
       {/* desktop view */}
-      <div className="hidden md:block ">
+      <div className="hidden md:block md:px-0 ">
         <div className="flex flex-col   font-work md:">
-          <div className="flex flex-col md:flex-row justify-between gap-[80px] sm:gap-[128px]  ">
-            <div className=" lg:text-[20px] lg:mt-[8px] lg:w-[436px] font-work lg:font-[400] lg:justify-center lg:leading-[36px]  sm:p-[2px] ">
+          <div className="flex flex-col md:flex-row justify-between gap-[80px] sm:gap-[80px]  ">
+            <div className=" lg:text-[20px] lg:mt-[8px]  lg:w-[436px] font-work lg:font-[400] lg:justify-center lg:leading-[36px]  sm:p-[2px] ">
               <img className="cursor-pointer " src={Logo} />
-              <h3 className="pt-[10px]">
+              <h3 className="pt-[10px] md:">
                 Empowering Nigerians to report, track, and resolve
                 infrastructure issues across
-                <br /> the country
+                the country
               </h3>
             </div>
             {/* flex links */}
-            <div className="flex  leading-[18px] sm:leading-[24px] justify-evenly  gap-[8px] w-[676px] text-[14px] font-[400] font-work pb-[24px] ">
-              <div className="">
+            <div className="flex scroll-smooth leading-[18px] sm:leading-[24px] justify-evenly  w-[676px]  text-[14px] font-[400] font-work pb-[24px] ">
+              <div className=" md:w-[98px]">
                 <h3 className="font-bold">Get involved</h3>
                 <ol className="cursor-pointer">
                   <li className="hover:text-[#0011ff]">Contact us</li>
-                  <li className="hover:text-[#0011ff]">About us</li>
+                  <Link to="/AboutUs">
+                    <li className="hover:text-[#0011ff]">About us</li>
+                  </Link>
                   <li className="hover:text-[#0011ff]">Support</li>
-                  <li className="hover:text-[#0011ff]">FAQs</li>
+                  <a href="#FAQ" className="block scroll-smooth">
+                    <li className="hover:text-[#0011ff]">FAQs</li>
+                  </a>
                   <li className="hover:text-[#0011ff]">Blog</li>
                 </ol>
               </div>
+            
+
               <div className=" ">
                 <h3 className="font-bold"> Stay updated</h3>
                 <ol className="cursor-pointer">
@@ -43,7 +50,7 @@ function footer() {
                   <li className="hover:text-[#0011ff]">Updates</li>
                 </ol>
               </div>
-              <div className=" ">
+              <div className=" w-[225px]">
                 <h3 className="font-bold">Contact us</h3>
                 <ol className="cursor-pointer">
                   <li className="hover:text-[#0011ff59] hover:underline">
@@ -82,10 +89,10 @@ function footer() {
 
       {/* mobile view */}
       <div className="md:hidden">
-        <div className="flex w-[358px]  mt-[50px]">
-          <div className="w-[223px] text-[16px] lg:mt-[8px]  font-work lg:font-[400] lg:justify-center lg:leading-[36px]  ">
+        <div className="flex w-[310px] sm:w-[358px]  mt-[50px]">
+          <div className="w-[213px] text-[16px] lg:mt-[8px]  font-work lg:font-[400] lg:justify-center lg:leading-[36px]  ">
             <img className="cursor-pointer " src={Logo} />
-            <h3 className="pt-[10px] w-[223px] h[116px]">
+            <h3 className="pt-[10px] w-[213px] h[116px]">
               Empowering Nigerians to report, track, and resolve infrastructure
               issues across
               <br /> the country
@@ -98,12 +105,15 @@ function footer() {
               <li className="hover:text-[#0011ff]">Contact us</li>
               <li className="hover:text-[#0011ff]">About us</li>
               <li className="hover:text-[#0011ff]">Support</li>
+              <li>
+  <a href="#FAQ" className="hover:text-[#0011ff] block scroll-smooth">FAQs</a>
+</li>
               <li className="hover:text-[#0011ff]">FAQs</li>
               <li className="hover:text-[#0011ff]">Blog</li>
             </ol>
           </div>
         </div>
-        <div className="flex w-[358px] h-[237px] mt-[40px] justify-between leading-8">
+        <div className="flex w-[310px] h-[237px] mt-[40px] justify-between gap-[2px] leading-8">
           <div className=" ">
             <h3 className="font-bold"> Stay updated</h3>
             <ol className="cursor-pointer">
