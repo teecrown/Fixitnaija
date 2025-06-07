@@ -11,7 +11,7 @@ const Herosection = () => {
                     <h1 className='text-[24px] sm:text-[54px] font-poppins font-bold leading-[36px] w-[264px] sm:w-[817px] h-[144px] sm:h-[240px] sm:leading-[80px] text-white  ml-[16px] sm:ml-[100px] mr-[110px] sm:mr-[323px] mb-[16px] pt-[49px] sm:pt-[67px]'>
                         Empowering <br /> Communities  to Report <br /> Infrastructure Issues
                     </h1>
-                    <p className='text-[14px] sm:text-[17px] font-poppins font-medium leading-[24px] w-[358px] sm:w-[817px] h-[120px] sm:h-[90px] sm:leading-[30px] text-white  ml-[16px] sm:ml-[100px] mr-[110px] sm:mr-[323px] pt-[8px] sm:pt-[52px]'>
+                    <p className='text-[14px] sm:text-[17px] font-poppins font-medium leading-[24px] w-[318px] sm:w-[817px] h-[120px] sm:h-[90px] sm:leading-[30px] text-white  ml-[16px] sm:ml-[100px] mr-[110px] sm:mr-[323px] pt-[8px] sm:pt-[52px]'>
                         Welcome to our innovative civic tech platform, where you can easily report and 
                         <br/> track public infrastructure problems in your community.Join us in making a 
                         <br/> difference by highlighting issues in your community.
