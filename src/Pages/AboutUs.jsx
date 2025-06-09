@@ -8,7 +8,7 @@ import Correct from "../assets/correct.png";
 import Round from "../assets/rounded.png";
 import ArrowUp from "../assets/arrowup.png";
 import Love from "../assets/love.png";
-import Navbar from "../Components/Navbar";
+import Navbar from "../Components/navbar";
 
 const AboutUs = () => {
   return (
