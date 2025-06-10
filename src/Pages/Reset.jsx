@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/fixitlogo.png";
+import Logo from "../assets/Fixitlogo.png";
 
 function Reset() {
   return (
